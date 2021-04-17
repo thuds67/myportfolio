@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+.A4{
+    
+    margin: auto;
+    padding: 0;
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+
+}
+
+.column1{
+    float: left;
+    margin: 3em 2em;
+    width: 500px;
+    
+   
+    
+}
+
+.column2{
+    float: left;  
+    margin: 3em 1em; 
+    width: 250px;
+    
+}
+
+.name-intro{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.name-intro h1{
+       font-size: 50px;
+       font-family: Merriweather;
+}
+
+.name-intro p{
+    font-size:13px;
+    font-family: 'open sans';
+    font-style: italic; 
+}
+
+.employment-card{
+   
+   margin: 0 0;
+}
+
+.employment-header{
+    
+    margin-top: 1em;
+}
+
+.topic-head{
+    color: rgb(76, 126, 218);
+    margin: 2em 0;
+    font-family: 'OPEN SANS';
+    font-size: 13px;
+}
+
+.comapany{
+  
+    font-family: Merriweather;
+    margin: 2em 0 0;
+    font-size: 15px;
+}
+
+.duration{
+    
+    font-size:12px;
+    width: 50%;
+    padding: 5px;
+    margin: 0;
+    font-family: 'open sans';
+    font-weight: lighter;
+    color: gray;
+    
+    
+}
+
+
+ul li{
+    line-height: 1.3em;
+    font-family: Merriweather;
+    font-size: 14px;
+    color: gray;
+}
+
+.itcolor{
+    font-weight: 100;
+}
+
+.degree{
+    line-height: 1.3em;
+    font-family: Merriweather;
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+.projects{
+    font-size: 16px;
+    font-family: merriweather;
+}
+
+.volunt{
+    font-size: 14px;
+    font-family: merriweather;
+    color: gray;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.license{
+        font-size: 14px;
+        font-family: merriweather;
+        color: gray;
+         font-weight: bold;
+         margin-bottom: 0;
+}
+
+.cert{
+    font-size: 12px;
+    font-family: merriweather;
+    color: gray;
+    margin: 0;
+}
+
+
+.lists{
+    margin-bottom: 6em;
+
+}
+.col-info{
+    margin: 0;
+}
+
+.col-2head{
+    color: rgb(76, 126, 218);
+    margin: 2em 0;
+    font-family: 'OPEN SANS';
+    font-size: 13px;
+}
+
+.col-skill{
+    font-family: merriweather;
+    color: gray;
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .column1, .column2{   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 400px) {
+    .column1, .column2{   
+        width: 100%;
+        padding: 0;
+      }
+  }
